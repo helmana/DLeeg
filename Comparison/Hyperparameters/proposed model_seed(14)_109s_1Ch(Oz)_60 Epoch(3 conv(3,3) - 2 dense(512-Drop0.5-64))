@@ -99,7 +99,7 @@
         "from google.colab import drive\n",
         "drive.mount('/content/drive')"
       ],
-      "execution_count": 2,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -128,7 +128,7 @@
       "source": [
         "!pip install mne"
       ],
-      "execution_count": 1,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -261,7 +261,7 @@
         "print(__doc__)\n",
         "\n"
       ],
-      "execution_count": 26,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -298,7 +298,7 @@
         "  for j in range(task_number):\n",
         "    list_rawdata[i][j] = mne.io.read_raw_edf(list_raw_fnames[i][j], preload=True)\n"
       ],
-      "execution_count": 5,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -863,11 +863,11 @@
       "metadata": {
         "colab_type": "code",
         "id": "lltZvYULvrvA",
+        "outputId": "c5a4df87-6263-40f0-bde6-1463ddf66b04",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 51
-        },
-        "outputId": "c5a4df87-6263-40f0-bde6-1463ddf66b04"
+        }
       },
       "source": [
         "# img for each subject\n",
@@ -895,7 +895,7 @@
         "print(train_number , val_number, test_number )\n",
         "subject_img_number"
       ],
-      "execution_count": 68,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -1149,7 +1149,7 @@
         "plt.legend()\n",
         "plt.show()"
       ],
-      "execution_count": 72,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
